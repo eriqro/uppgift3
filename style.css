@@ -1,0 +1,26 @@
+.grid-container{
+  display:grid;
+  grid-template-columns: auto auto;
+  background-color: lightblue;
+  padding: 7px;
+}
+.grid-item{
+  background-color: aliceblue;
+  border: 20px solid black;
+  padding: 7px;
+  font-size: 50px;
+  text-align: center;
+}
+
+header{
+  display:flex;
+  justify-content: right;
+  align-items: right;
+  background: lightgray ;
+}
+.primary-navigation{
+  display:flex;
+  gap:2rem;
+  padding-right:4rem;
+  list-style-type: none;
+}
